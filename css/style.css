@@ -80,7 +80,7 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 
-.logo {
+.header__logo {
     color: #000;
     font-family: 'Raleway';
     font-weight: 700;
@@ -92,14 +92,14 @@ img {
     padding-bottom: 25px;
     }
 
-.logoweb {
+.header__logo--web {
     color: var(--bacraund-color-button);
 }
 
 
 /* Naw Header */
 
-.header-container {
+.header {
     display: flex;
     align-items: center;
 }
@@ -108,7 +108,7 @@ img {
     border-bottom: 1px solid var(--bord);
 }
 
-.item {
+.header__item {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -120,7 +120,7 @@ img {
 
 
 
-.heder-list {
+.header__list {
     display: flex;
     align-items: center;
     margin-top: 0;
@@ -129,7 +129,7 @@ img {
 
 }
 
-.heder-list-con {
+.header__contact {
     display: flex;
     align-items: center;
     margin-left: auto; 
@@ -146,7 +146,7 @@ img {
     transition: box-shadow 250ms var(--cubic);
 }
 
-.link {
+.header__link {
     color: var(--brand-color);
     text-decoration:none;
     font-weight: 500;
@@ -177,12 +177,12 @@ img {
     outline: 2px tomato;
 }
 
-.link::after  {
+.header__link::after  {
     position: absolute;
     content: '';
     display: block;
     width: 100%;
-    height: 5px;
+    height: 4px;
     background-color: var(--bacraund-color-button);
 
     border-radius: 2px;
@@ -193,27 +193,27 @@ img {
 
 }
 
-.link:hover::after {
+.header__link:hover::after {
     transform: translateY(0px);
 }
 
 /* hover contacts */
 
-.link:focus,
-.link:hover {
+.header__link:focus,
+.header__link:hover {
     color: var(--bacraund-color-button);
     transition: color 250ms var(--cubic);
 }
 
 /* icon nav */
 
-.icon-svg {
+.header__icon--contact {
     fill: currentColor;
 }
 
 /* /hover contacts */
 
-.adres-headerr {
+.header__addres {
     display: flex;
     color: var(--p-color);
     font-weight: 500;
@@ -224,8 +224,8 @@ img {
     padding: 0;
 }
 
-.adres-headerr a:focus,
-.adres-headerr a:hover {
+.header__addres a:focus,
+.header__addres a:hover {
     color: var(--bacraund-color-button);
     transition: color 250ms var(--cubic);
 }
