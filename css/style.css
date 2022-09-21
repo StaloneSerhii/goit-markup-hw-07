@@ -255,7 +255,7 @@ img {
 }
 
 
-.hero-text {
+.hero__text {
     text-transform: uppercase;
     font-style: normal;
     font-weight: 900;
@@ -273,7 +273,7 @@ img {
 
 /* Button all */
 
-.hero-button {
+.hero__button {
     font-family: 'Roboto';
     cursor: pointer; 
     background: var(--bacraund-color-button);
@@ -295,8 +295,8 @@ img {
     transition-timing-function: var(--cubic);
 }
 
-.hero-button:focus,
-.hero-button:hover {
+.hero__button:focus,
+.hero__button:hover {
 
     background-color: var(--hero-white);
     color: var(--bacraund-color-button);
@@ -372,7 +372,7 @@ img {
 }
 
 
-.icon-us {
+.progres__icon {
     display: flex;
     justify-content: center;
     height: 120px;
@@ -382,7 +382,7 @@ img {
     margin-bottom: 30px;
 }
 
-.size-info {
+.progres__size-info {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
