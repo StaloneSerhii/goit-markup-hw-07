@@ -25,7 +25,7 @@
     <header class="border">
       <div class="header container">
         <a class="header__logo list" lang="en" href="/"
-          ><span class="header__logo--web">Web</span>Studio</a
+          ><span class="logo__web">Web</span>Studio</a
         >
         <nav>
           <ul class="header__list list">
@@ -287,44 +287,44 @@
 
     <!--adress footer-->
 
-    <footer class="footer-all">
+    <footer class="footer">
       <div class="container position-icon">
-        <div class="fail">
-          <a class="logo-footer list" lang="en" href="/">
-            <span class="logoweb">Web</span>Studio</a
+        <div>
+          <a class="logo__footer list" lang="en" href="/">
+            <span class="logo__web">Web</span>Studio</a
           >
           <address class="addres">
-            <ul class="addres-ul list">
+            <ul class="addres__list list">
               <li>
-                <a class="str list" href="https://goo.gl/maps/yThBwbWwu9JTvZc1A"
+                <a class="addres__link--str list" href="https://goo.gl/maps/yThBwbWwu9JTvZc1A"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
               <li>
-                <a class="adres-footer list" href="mailto:info@devstudio.com"
+                <a class="adres__footer list" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a class="adres-footer list" href="tel:+380961111111"
+                <a class="adres__footer list" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-icon">
-          <p>ПРИЄДНУЙТЕСЯ</p>
-          <ul class="icon-ul-f">
-            <li class="icon-li-f">
+        <div class="footer-social">
+          <p class="footer-social__size">ПРИЄДНУЙТЕСЯ</p>
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
               <a
-                class="icon-delp"
+                class="footer-social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-f" width="20" height="20">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use
                     class="con"
                     href="./images/symbol-defs.svg#icon-instagram"
@@ -332,15 +332,15 @@
                 </svg>
               </a>
             </li>
-            <li class="icon-li-f">
+            <li class="footer-social__item">
               <a
-                class="icon-delp"
+                class="footer-social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-f" width="20" height="20">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use
                     class="con"
                     href="./images/symbol-defs.svg#icon-twitter"
@@ -348,15 +348,15 @@
                 </svg>
               </a>
             </li>
-            <li class="icon-li-f">
+            <li class="footer-social__item">
               <a
-                class="icon-delp"
+                class="footer-social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-f" width="20" height="20">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use
                     class="con"
                     href="./images/symbol-defs.svg#icon-facebook"
@@ -364,15 +364,15 @@
                 </svg>
               </a>
             </li>
-            <li class="icon-li-f">
+            <li class="footer-social__item">
               <a
-                class="icon-delp"
+                class="footer-social__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="icon-soc-f" width="20" height="20">
+                <svg class="footer-social__icon" width="20" height="20">
                   <use
                     class="con"
                     href="./images/symbol-defs.svg#icon-in"
@@ -383,26 +383,27 @@
           </ul>
         </div>
         <form class="send-footer">
-          <strong>Підпишіться на розсилку</strong>
-          <div class="send-input">
-          <input 
-          class="send-input-s" 
-          minlength="3" 
-          maxlength="12" 
-          id="send" 
-          name="send" 
-          type="text" 
-          placeholder="E-mail"
-          required
-          >
-          <label for="send"></label>
-          <button class="btn-send" type="submit">Підписатися 
-            <svg class="svg-send" width="24" height="24">
-              <use href="./images/symbol-defs.svg#icon-send"></use>
-            </svg>
+          <strong class="send-footer__strong">Підпишіться на розсилку</strong>
+          <div class="send-footer__block">
+            <input
+              class="send-footer__input"
+              minlength="3"
+              maxlength="12"
+              id="send"
+              name="send"
+              type="text"
+              placeholder="E-mail"
+              required
+            />
+            <label for="send"></label>
+            <button class="btn btn-send" type="submit">
+              Підписатися
+              <svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
+              </svg>
             </button>
-            </div>
-          </form>
+          </div>
+        </form>
       </div>
     </footer>
   </body>
