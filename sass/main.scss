@@ -2,7 +2,6 @@
 @import './base/reset';
 
 // Utilit styles
-@import './utils/variables';
 @import './utils/visually-hidden';
 
 // Basa styles
@@ -10,10 +9,9 @@
 @import './base/container';
 
 // Layouts styles
-@import './base/header-index';
+@import './layouts/logo';
 
 
 // Component styles
-@import './components/page-header';
 @import './components/logo';
 
