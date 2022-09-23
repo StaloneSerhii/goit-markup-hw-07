@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --brand-color:#212121;
     --bacraund-color-button:#2196F3;
     --p-color:#757575;
@@ -8,7 +8,7 @@
     --icon: #AFB1B8;
     --bord: #ECECEC;
     --cubic: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* King tags */
 /* body {
@@ -117,10 +117,20 @@
     align-items: center;
 } */
 
+/* .links {
+    color: var(--brand-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    transition: box-shadow 250ms var(--cubic);
+} */
 
 
 
-.header__list {
+/* .header__list {
     display: flex;
     align-items: center;
     margin-top: 0;
@@ -135,16 +145,7 @@
     margin-left: auto; 
 }
 
-.links {
-    color: var(--brand-color);
-    text-decoration:none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
 
-    transition: box-shadow 250ms var(--cubic);
-}
 
 .header__link {
     color: var(--brand-color);
@@ -156,9 +157,9 @@
 
     position: relative;
     overflow: hidden;
-}
+} */
 
-.active {
+/* .active {
     color: var(--bacraund-color-button);
     position: relative;
 
@@ -175,9 +176,9 @@
     left: 0px;
     bottom: 0px;
     outline: 2px tomato;
-}
+} */
 
-.header__link::after  {
+/* .header__link::after  {
     position: absolute;
     content: '';
     display: block;
@@ -191,29 +192,29 @@
     transform: translateY(10px);
     transition: transform 250ms var(--cubic);
 
-}
+} */
 
-.header__link:hover::after {
+/* .header__link:hover::after {
     transform: translateY(0px);
-}
+} */
 
 /* hover contacts */
 
-.header__link:focus,
+/* .header__link:focus,
 .header__link:hover {
     color: var(--bacraund-color-button);
     transition: color 250ms var(--cubic);
-}
+} */
 
 /* icon nav */
 
-.header__icon--contact {
+/* .header__icon--contact {
     fill: currentColor;
-}
+} */
 
 /* /hover contacts */
 
-.header__addres {
+/* .header__addres {
     display: flex;
     color: var(--p-color);
     font-weight: 500;
@@ -228,12 +229,12 @@
 .header__addres a:hover {
     color: var(--bacraund-color-button);
     transition: color 250ms var(--cubic);
-}
+} */
 
 
 /* Hero */
 
-.hero {
+/* .hero {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -250,12 +251,10 @@
     background-color: var(--fon); 
     background-size: cover;
     background-position: center; 
+} */
 
 
-}
-
-
-.hero__text {
+/* .hero__text {
     text-transform: uppercase;
     font-style: normal;
     font-weight: 900;
@@ -268,12 +267,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 696px;
-}
+} */
 
 
 /* Button all */
 
-.hero__button {
+/* .hero__button {
     font-family: 'Roboto';
     cursor: pointer; 
     background: var(--bacraund-color-button);
@@ -302,14 +301,14 @@
     color: var(--bacraund-color-button);
 
     
-}
+} */
 /*  /Hero button  */
 
 
 
 /* Button filtr */
 
-.botton-filtr {
+/* .botton-filtr {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -339,18 +338,18 @@
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
     transition: background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
-}
+} */
 
-.filtr-flex {
+/* .filtr-flex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 50px;
-}
+} */
 
 /* /Button filtr */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -361,12 +360,12 @@
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+  } */
 
 
 /* TEXT MAIN */
 
-.progres {
+/* .progres {
     display: flex;
     gap: 30px;
 }
@@ -397,11 +396,11 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     width: 270px;
-}
+} */
 
 /* Portfolio */
 
-.work {
+/* .work {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -455,10 +454,10 @@
     display: flex;
     gap: 30px;
     margin: 0;
-}
+} */
 
 
-
+/* 
 .team {
     display: flex;
     gap: 30px;
@@ -488,10 +487,10 @@
     line-height: 1.9;
     text-align: center;
     margin-bottom: 16px;
-}
+} */
 
 /* svg us company */
-.icon-list {
+/* .icon-list {
     display: flex;
     list-style: none;
     gap: 10px;
@@ -551,7 +550,7 @@
 
 .social-developer--icon {
     fill: var(--icon);
-}
+} */
 
 
 
@@ -560,7 +559,7 @@
 
 /* Clients */
 
-.work__list-client {
+/* .work__list-client {
     display: flex;
     list-style: none;
     gap: 30px;
@@ -588,50 +587,48 @@
 }
 
 /* ico clients */
-.work__link:hover {
+/* .work__link:hover {
     border-color: var(--bacraund-color-button);
     color: var(--bacraund-color-button);
 }
 
 .work__icon {
     fill: currentColor;
-}
+} */ 
 
 
 
 /* Button Filtr */
 
 
-.botton-filtr {
+/* .botton-filtr {
     cursor: pointer;
-}
+} */
 
-.filtr {
+/* .filtr {
     position: absolute;
     top: -9999px;
     left: -9999px;
-     
-}
+} */
 
 
 /* Footer portfolio */
 
-.logo__footer {
+/* .logo__footer {
     color: var(--hero-white);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     height: 31px;
-}
+} */
 
-.adres__footer {
+/* .adres__footer {
     color: var(--p-color);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-
 }
 
 .addres .addres__list {
@@ -639,7 +636,6 @@
     padding: 0;
     
 }
-
 
 
 .addres__list :hover {
@@ -750,11 +746,11 @@
     text-transform: uppercase;
 
     color: var(--backraund-usteam);
-}
+} */
 
 /* ico footer */
 
-.position-icon {
+/* .position-icon {
      display: flex; 
      align-items: baseline;
 }
@@ -797,34 +793,15 @@
 
 .footer-social__icon {
     fill: var(--hero-white);
-}
+} */
 
 /* /ico footer */
 
 /* Cart Box */
 
-.card-set {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: -30px;
-  }
-
- .items {
-     /* flex-basis: calc(100% / 3);  */
-    margin-right: 30px; 
-    margin-bottom: 30px;
-}
-
-.items:nth-child(3n) {
-    margin-right: 0;
-}
-
-.link-items:nth-last-child(-n + 3) {
-    margin-bottom: 0;
-  }
 
 
-.shadow:hover {
+/* .shadow:hover {
     display: block;
     border: 1px var(--hero-white);
     border-radius: 4px;
@@ -899,11 +876,11 @@
     height: 100%;
     left: 0;
     top: 0;
-}
+} */
 
 /* Modal Window */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -972,7 +949,7 @@
 /* Modal info */
 
 
-.modal-form__input {
+/* .modal-form__input { 
     width: 100%;
     height: 40px;
     padding-left: 40px;
@@ -1147,4 +1124,4 @@ height: 50px;
 
 .label-check__link {
     color: var(--bacraund-color-button);
-}
+} */
