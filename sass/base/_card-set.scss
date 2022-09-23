@@ -4,6 +4,17 @@
     margin-bottom: -30px;
 }
 
+.card-set__link {
+    color: var(--brand-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    transition: box-shadow 250ms var(--cubic);
+}
+
  .card-set__items {
      /* flex-basis: calc(100% / 3);  */
      margin-right: 30px;
@@ -17,3 +28,4 @@
             margin-bottom: 100px;
         }
  }
+

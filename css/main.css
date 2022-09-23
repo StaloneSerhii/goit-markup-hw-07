@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,400&family=Roboto:wght@400;500;700&display=swap");
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -63,26 +64,10 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
-.list {
-  text-decoration: none;
-  list-style: none;
-  color: currentColor;
-}
-
 .footer {
   background-color: var(--fon);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.card-set__link {
-  color: var(--brand-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  transition: box-shadow 250ms var(--cubic);
 }
 
 .container {
@@ -138,6 +123,16 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -30px;
+}
+
+.card-set__link {
+  color: var(--brand-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  transition: box-shadow 250ms var(--cubic);
 }
 
 .card-set__items {
